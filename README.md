@@ -15,11 +15,19 @@ with IPython 2.0 or newer. You can find installation instructions
 The notebooks and associated data can be downloaded [here](https://github.com/StuartLittlefair/python-teaching/zipball/master).
 Unzip the notebooks:
 
-```unzip python-teaching.zip```
+```
+
+unzip python-teaching.zip
+
+```
 
 and start the IPython notebook in the resulting directory.
 
-```ipython notebook```
+```
+
+ipython notebook
+
+```
 
 
 
