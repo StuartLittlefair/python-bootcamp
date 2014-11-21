@@ -1,2 +1,2 @@
-*Astronomy Python Teaching at the University of Sheffield*
+**Astronomy Python Teaching at the University of Sheffield**
 
