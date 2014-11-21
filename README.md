@@ -16,17 +16,13 @@ The notebooks and associated data can be downloaded [here](https://github.com/St
 Unzip the notebooks:
 
 ```
-
 unzip python-teaching.zip
-
 ```
 
 and start the IPython notebook in the resulting directory.
 
 ```
-
 ipython notebook
-
 ```
 
 
