@@ -1,8 +1,7 @@
-<link href='http://fonts.googleapis.com/css?family=Alegreya+Sans:100,300,400,500,700,800,900,100italic,300italic,400italic,500italic,700italic,800italic,900italic' rel='stylesheet' type='text/css'>
-<link href='http://fonts.googleapis.com/css?family=Arvo:400,700,400italic' rel='stylesheet' type='text/css'>
-<link href='http://fonts.googleapis.com/css?family=PT+Mono' rel='stylesheet' type='text/css'>
-<link href='http://fonts.googleapis.com/css?family=Shadows+Into+Light' rel='stylesheet' type='text/css'>
-<link href='http://fonts.googleapis.com/css?family=Nixie+One' rel='stylesheet' type='text/css'>
+<link href='http://fonts.googleapis.com/css?family=Crimson+Text' rel='stylesheet' type='text/css'>
+<link href='http://fonts.googleapis.com/css?family=Kameron' rel='stylesheet' type='text/css'>
+<link href='http://fonts.googleapis.com/css?family=Lato:200,300,400' rel='stylesheet' type='text/css'>
+<link href='http://fonts.googleapis.com/css?family=Source+Code+Pro' rel='stylesheet' type='text/css'>
 <style>
 
 @font-face {
@@ -15,18 +14,18 @@
 }
 
 div.cell { /* set cell width */
-    width: 750px;
+    width: 700px;
 }
 
 div #notebook { /* centre the content */
     background: #fff; /* white background for content */
-    width: 1000px;
+    width: 900px;
     margin: auto;
     padding-left: 0em;
 }
 
 #notebook li { /* More space between bullet points */
-margin-top:0.8em;
+    margin-top:0.8em;
 }
 
 /* draw border around running cells */
@@ -44,82 +43,62 @@ div.cell.code_cell {
 }
 
 div.text_cell_render{
-    font-family: 'Alegreya Sans' sans-serif;
-    line-height: 140%;
-    font-size: 115%;
-    font-weight: 400;
-    width:600px;
+    width:750px;
     margin-left:auto;
     margin-right:auto;
 }
 
-
-/* Formatting for header cells */
-.text_cell_render h1 {
-    font-family: 'Nixie One', serif;
-    font-style:regular;
-    font-weight: 400;    
-    font-size: 45pt;
-    line-height: 100%;
-    color: rgb(0,51,102);
-    margin-bottom: 0.5em;
-    margin-top: 0.5em;
-    display: block;
-}	
-.text_cell_render h2 {
-    font-family: 'Nixie One', serif;
-    font-weight: 400;
-    font-size: 30pt;
-    line-height: 100%;
-    color: rgb(0,51,102);
-    margin-bottom: 0.1em;
-    margin-top: 0.3em;
-    display: block;
-}	
-
-.text_cell_render h3 {
-    font-family: 'Nixie One', serif;
-    margin-top:16px;
-	font-size: 22pt;
-    font-weight: 600;
-    margin-bottom: 3px;
-    font-style: regular;
-    color: rgb(102,102,0);
+div.input_area {
+    border-color: rgba(0,0,0,0.10);
+    background: rbga(0,0,0,0.5);
 }
 
-.text_cell_render h4 {    /*Use this for captions*/
-    font-family: 'Nixie One', serif;
-    font-size: 14pt;
-    text-align: center;
-    margin-top: 0em;
-    margin-bottom: 2em;
-    font-style: regular;
+/*
+div.text_cell {
+    max-width: 105ex; /* instead of 100%, */
+}
+*/
+
+div.text_cell_render {
+    font-family: "Crimson Text";
+    font-size: 12pt;
+    line-height: 145%; /* added for some line spacing of text. */
 }
 
-.text_cell_render h5 {  /*Use this for small titles*/
-    font-family: 'Nixie One', sans-serif;
-    font-weight: 400;
-    font-size: 16pt;
-    color: rgb(163,0,0);
-    font-style: italic;
-    margin-bottom: .1em;
-    margin-top: 0.8em;
-    display: block;
-}
-
-.text_cell_render h6 { /*use this for copyright note*/
-    font-family: 'PT Mono', sans-serif;
+div.text_cell_render h1,
+div.text_cell_render h2,
+div.text_cell_render h3,
+div.text_cell_render h4,
+div.text_cell_render h5,
+div.text_cell_render h6 {
+    font-family: 'Kameron';
     font-weight: 300;
-    font-size: 9pt;
-    line-height: 100%;
-    color: grey;
-    margin-bottom: 1px;
-    margin-top: 1px;
 }
 
-.CodeMirror{
-        font-family: "PT Mono";
-        font-size: 100%;
+div.text_cell_render h1 {
+    font-size: 24pt;
+}
+
+div.text_cell_render h2 {
+    font-size: 18pt;
+}
+
+div.text_cell_render h3 {
+    font-size: 14pt;
+}
+
+.rendered_html pre,
+.rendered_html code {
+    font-size: medium;
+}
+
+.rendered_html ol {
+    list-style:decimal;
+    margin: 1em 2em;
+}
+
+.CodeMirror pre{
+        font-family: 'Source Code Pro', Consolas, monocco, monospace;
 }
 
 </style>
