@@ -14,12 +14,12 @@
 }
 
 div.cell { /* set cell width */
-    width: 600px;
+    width: 800px;
 }
 
 div #notebook { /* centre the content */
     background: #fff; /* white background for content */
-    width: 800px;
+    width: 900px;
     margin: auto;
     padding-left: 0em;
 }
@@ -43,7 +43,7 @@ div.cell.code_cell {
 }
 
 div.text_cell_render{
-    width:650px;
+    width:800px;
     margin-left:auto;
     margin-right:auto;
 }
