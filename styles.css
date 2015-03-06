@@ -13,20 +13,20 @@
     background: rgb(245,245,245);
 }
 
-/*
+
 div.cell { /* set cell width */
     width: 800px;
 }
-*/
 
-/*
+
+
 div #notebook { /* centre the content */
     background: #fff; /* white background for content */
     width: 900px;
     margin: auto;
     padding-left: 0em;
 }
-*/
+
 
 #notebook li { /* More space between bullet points */
     margin-top:0.8em;
@@ -46,24 +46,24 @@ div.cell.code_cell {
     margin-top: 1em;
 }
 
-/*
+
 div.text_cell_render{
     width:800px;
     margin-left:auto;
     margin-right:auto;
 }
-*/
+
 
 div.input_area {
     border-color: rgba(0,0,0,0.10);
     background: rbga(0,0,0,0.5);
 }
 
-/*
+
 div.text_cell {
     max-width: 105ex; /* instead of 100%, */
 }
-*/
+
 
 div.text_cell_render {
     font-family: "Crimson Text";
