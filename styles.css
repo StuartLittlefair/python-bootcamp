@@ -13,12 +13,6 @@
     background: rgb(245,245,245);
 }
 
-/*
-div.cell { /* set cell width */
-    width: 800px;
-}
-*/
-
 
 div #notebook { /* centre the content */
     background: #fff; /* white background for content */
