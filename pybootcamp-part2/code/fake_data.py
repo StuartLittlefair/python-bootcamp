@@ -6,7 +6,7 @@ import seaborn as sns
 sns.set()
 
 
-def create_fake_data():
+def create_fake_data(add_sin=False):
     # fake 1D lightcurve. 
     # data is a constant, plus and airmass term, plus a random cloud
     x = np.linspace(0,8,101)
@@ -19,8 +19,8 @@ def create_fake_data():
 
     # const + airmass + cloud
     ybase = 20.0 + 5*np.sin(np.pi*x/12.) - cloud
-    plt.plot(ybase)
-    plt.show()
+    #plt.plot(ybase)
+    #plt.show()
 
     # stack many times to get 2D array [stars,hours]
     nstars = 20
@@ -28,12 +28,20 @@ def create_fake_data():
 
     # add gaussian noise (amplitude around 1)
     data += np.random.normal(loc=0,scale=0.8,size=data.shape)
+    
+    # add sine wave to star 11 if required
+    if add_sin:
+        data[10,:] += 40.0*np.sin(2.0*np.pi*x/3.5)
+    
     return data
     
 from itertools import count
-filename = ('star_data_{0}.csv'.format(i) for i in count(1))
+filename = ('star_data_{0:02d}.csv'.format(i) for i in count(1))
 for i in range(12):
-    data = create_fake_data()
+    if i != 3:
+        data = create_fake_data()
+    else:
+        data = create_fake_data(add_sin=True)
     np.savetxt( next(filename), data, delimiter=',')
 
 
