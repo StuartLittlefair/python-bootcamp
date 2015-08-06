@@ -82,6 +82,8 @@ div.text_cell_render h3 {
 .rendered_html pre,
 .rendered_html code {
     font-size: medium;
+    background-color: rgba(246,246,246,1);
+    padding: 2px;
 }
 
 .rendered_html ol {
