@@ -19,10 +19,10 @@ Unzip the notebooks:
 unzip python-teaching.zip
 ```
 
-and start the IPython notebook in the resulting directory.
+and start the Jupyter notebook in the resulting directory.
 
 ```
-ipython notebook
+jupyter notebook
 ```
 
 
