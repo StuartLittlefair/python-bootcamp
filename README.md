@@ -7,6 +7,8 @@ University of Sheffield.
 
 These notebooks can be viewed statically online  [here](http://nbviewer.ipython.org/github/StuartLittlefair/python-bootcamp/tree/master/).
 
+The notebooks are also available to run on Sage Math Cloud if you are enrolled on the Python Bootcamp Course.
+
 Alternatively, if you would like to download and run the notebooks
 interactively, you can do that. They are intended to be executed
 with Jupyter 4 or newer. You can find installation instructions
