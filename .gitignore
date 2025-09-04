@@ -1,2 +1,9 @@
 # Temporary data
 .ipynb_checkpoints/
+.DS_Store
+***/.ipynb_checkpoints/*
+.ipynb_checkpoints/*
+*.sage*
+**/.sage*
+md/
+.DS_Store
