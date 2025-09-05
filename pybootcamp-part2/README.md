@@ -6,7 +6,7 @@ Python Bootcamp for undergraduate astronomy students at the
 University of Sheffield. 
 
 Presently this bootcamp is given to students at the start of
-their second year, but it is separated from PHY241 so that
+their second year, but it is separated from MPS227 so that
 it can be given to first year students, if necessary.
 
 These notebooks can be viewed statically online  [here](http://nbviewer.ipython.org/github/StuartLittlefair/python-teaching/tree/master/).
